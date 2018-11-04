@@ -1,12 +1,13 @@
-provider "aws" 
-{region= "eu-central-1"
-}
+ provider "aws" {
+   region = "eu-central-1"
+ }
 
-resource "aws_instance" "example"{
-ami           = "ami-027583e616ca104df"
-instance_type = "t2.micro"
+ resource "aws_instance" "example" {
+   ami           = "ami-027583e616ca104df"
+   instance_type = "t2.micro"
 
 
-tags { Name = "Terraform1"
-}
-}
+ tags {
+   Name = "Terraform1"
+   }
+ }

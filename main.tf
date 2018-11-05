@@ -6,7 +6,6 @@
    ami           = "ami-027583e616ca104df"
    instance_type = "t2.micro"
 
-
    tags {
      Name = "Terraform1"
    }

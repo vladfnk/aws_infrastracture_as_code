@@ -7,7 +7,7 @@
    instance_type = "t2.micro"
 
 
- tags {
-   Name = "Terraform1"
+   tags {
+     Name = "Terraform1"
    }
  }
